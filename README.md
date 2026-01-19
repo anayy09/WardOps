@@ -16,8 +16,6 @@ docker compose up --build
 
 ### Option 2: Without Docker (Local Development)
 ```powershell
-# See QUICKSTART.md for detailed steps
-
 # 1. Setup backend (one-time)
 cd backend
 .\setup.ps1
@@ -75,10 +73,6 @@ WardOps/
 │   ├── app/api/        # REST + WebSocket routes
 │   ├── app/simulation/ # DES engine
 │   └── app/llm/        # Tool router + copilot
-├── docs/               # Documentation
-│   ├── ARCHITECTURE.md # System design
-│   ├── DEMO_SCRIPT.md  # Demo walkthrough
-│   └── POSTMORTEM.md   # Lessons learned
 └── docker-compose.yml  # One-command deployment
 ```
 
@@ -133,12 +127,7 @@ pytest -v
 
 ## 📖 Documentation
 
-| Document | Description |
-|----------|-------------|
-| [DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) | Guided demo walkthrough |
-| [ARCHITECTURE.md](docs/ARCHITECTURE.md) | System design & data models |
-| [POSTMORTEM.md](docs/POSTMORTEM.md) | Tradeoffs & lessons learned |
-| [PROJECT_PLAN.md](docs/PROJECT_PLAN.md) | Milestone checklist |
+Additional documentation files are available locally in the project directory for detailed guides on architecture, demo scripts, and project planning.
 
 ## ⌨️ Keyboard Shortcuts
 
